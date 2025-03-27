@@ -178,20 +178,6 @@
         background-color: #d6dfed;
         font-family: Helvetica;
     }
-    /*Landscape warning*/
-    .orientation-message { 
-            display: none; 
-            position: fixed; 
-            top: 50%; 
-            left: 50%; 
-            transform: translate(-50%, -50%); 
-            background: rgba(0, 0, 0, 0.7); 
-            color: white; 
-            padding: 20px; 
-            border-radius: 10px; 
-            text-align: center; 
-            font-family:"Plus Jakarta Sans";
-        } 
         img {
             max-width: 100%;
             height: auto;
@@ -210,9 +196,6 @@
             </p>
         </div>
     </head>
-    <div class="orientation-message" id="orientation-message"> 
-        To improve reading experience, please rotate your device. 
-    </div> 
     <div class = "dimbus">
         <div class = "item-main">
         <h3>Susunan Molekul Lapisan Ozon</h3>
@@ -241,20 +224,4 @@
         <p>2025 - Hujan Keti</p>
     </div>
     </body>
-    <script> 
-        function checkOrientation() { 
-            const message = document.getElementById('orientation-message'); 
-            if (window.innerHeight > window.innerWidth) { 
-                message.style.display = 'block'; // Show message in portrait 
-            } else { 
-                message.style.display = 'none'; // Hide message in landscape 
-            } 
-        } 
-     
-        window.addEventListener('resize', checkOrientation); 
-        window.addEventListener('orientationchange', checkOrientation); 
-     
-        // Initial check 
-        checkOrientation(); 
-    </script> 
 </html>
