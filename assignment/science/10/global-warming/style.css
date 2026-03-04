@@ -5,6 +5,12 @@
 
 body {
     padding-top: 50px;
+    padding: 50px;
+    padding-bottom: 10px;
+    background: radial-gradient(#504e87 15%, transparent 16%), repeating-linear-gradient(0deg, transparent 6.5%, #7ea2d9 7%, #7ea2d9 9%, transparent 10%), linear-gradient(45deg, transparent 49%, #504e87 49%, #504e87 51%, transparent 51%), linear-gradient(-45deg, transparent 49%, #504e87 49%, #504e87 51%, transparent 51%);
+    background-color: #7ea2d9;
+    background-size: 5em 5em;
+    opacity: 1
 }
 pre {
     font-family: Roboto;
