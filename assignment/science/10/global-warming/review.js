@@ -1,3 +1,5 @@
+//Skrip Jawa
+
 const stars = document.querySelectorAll(".star");
 const rating = document.getElementById("rating");
 const reviewText = document.getElementById("review");
