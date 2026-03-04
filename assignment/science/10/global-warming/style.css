@@ -10,7 +10,12 @@ body {
     background-size: 5em 5em;
     opacity: 1;
 }
-pre {
+pre, p {
     font-family: Roboto;
     text-shadow: -1px -1px 0 #374050;width:75%;
+}
+p {
+    white-space: pre-wrap;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
 }
