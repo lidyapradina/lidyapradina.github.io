@@ -17,7 +17,7 @@ pre {
 p {
     font-family: Roboto;
     text-shadow: -1px -1px 0 #374050;width:75%;
-    white-space: pre-wrap;
+    /* white-space: pre-wrap;
     /* overflow-wrap: break-word;
     /* word-wrap: break-word;*/
 }
