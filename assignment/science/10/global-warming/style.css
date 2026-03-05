@@ -6,25 +6,48 @@
 body {
     padding: 50px;
     padding-bottom: 10px;
-    background: radial-gradient(#504e87 15%, transparent 16%), repeating-linear-gradient(0deg, transparent 6.5%, #7ea2d9 7%, #7ea2d9 9%, transparent 10%), linear-gradient(45deg, transparent 49%, #504e87 49%, #504e87 51%, transparent 51%), linear-gradient(-45deg, transparent 49%, #504e87 49%, #504e87 51%, transparent 51%);
-    background-color: #7ea2d9;
+    background-color: #e2e6ed;
     background-size: 5em 5em;
     opacity: 1;
 }
-pre, p {
+pre {
     font-family: Roboto;
     text-shadow: -1px -1px 0 #374050;width:75%;
 }
 p {
+    font-family: Roboto;
+    text-shadow: -1px -1px 0 #374050;width:75%;
     white-space: pre-wrap;
     overflow-wrap: break-word;
     word-wrap: break-word;
 }
 
+.imgsnap {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    background: #374050;
+    opacity: 1;
+    border-top-left-radius: 20% 10%;
+    border-top-right-radius: 20% 10%;
+    margin-top: 60px;
+    text-shadow: none;
+}
+.imgsnap, p {
+    font-family: Roboto;
+    text-shadow: -1px -1px 0 #374050;width:75%;
+    white-space: pre-wrap;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+}
+
+
 /*review*/
 .review-container {
+    position: relative;
     background-color: white;
-    padding: 20px;
+    padding: 10px;
+    margin: 10px 0;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     text-align: center;
