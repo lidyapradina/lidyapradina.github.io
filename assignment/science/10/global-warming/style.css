@@ -75,6 +75,16 @@ textarea {
     border: 1px solid #ccc;
     border-radius: 4px;
 }
+.comment-box{
+  display:flex;
+  flex-direction:column;
+  width:300px;
+}
+
+#comments div{
+  border-bottom:1px solid #ccc;
+  padding:5px;
+}
 
 button {
     background-color: #007BFF;
