@@ -99,20 +99,24 @@ button:hover {
     background-color: #0056b3;
 }
 
-.reviews {
-    margin-top: 20px;
-    text-align: left;
+.comment{
+  border-bottom:1px solid #ddd;
+  padding:10px;
 }
 
-.review {
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    padding: 10px;
-    margin: 10px 0;
+.comment-header{
+  font-size:14px;
+  color:#444;
 }
 
-.review p {
-    margin: 0;
+.comment-time{
+  margin-left:10px;
+  font-size:12px;
+  color:#888;
+}
+
+.comment-text{
+  margin-top:5px;
 }
 
 .header, h1{
