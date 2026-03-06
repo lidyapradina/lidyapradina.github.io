@@ -11,6 +11,9 @@ body {
     background-color: #e2e6ed;
     background-size: 5em 5em;
     opacity: 1;
+    width: 75%;
+    margin: auto;
+    padding: 20px;
 }
 pre {
     font-family: Roboto;
@@ -20,15 +23,9 @@ pre {
 p {
   font-family: Roboto;
   text-shadow: -1px -1px 0 #374050;
-  width: 75%;
-  margin: auto;
-  padding: 20px;
 }
 h2 {
     font-family: Montserrat;
-    width: 75%;
-    margin: auto;
-    padding: 20px;
 }
 
 /*review*/
