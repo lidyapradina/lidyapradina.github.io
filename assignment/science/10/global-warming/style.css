@@ -32,9 +32,17 @@ h2{
     width: 75%;
     margin: auto;
 }
-h1{
+h1 {
     font-family: Montserrat;
-    margin-left: auto;
+    width: 75%;
+    margin: auto;
+    text-align: center;
+}
+
+img {
+    display: block;
+    width: 75%;
+    margin: auto;
 }
 
 
