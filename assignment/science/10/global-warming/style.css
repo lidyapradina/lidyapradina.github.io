@@ -32,17 +32,24 @@ h2{
     width: 75%;
     margin: auto;
 }
-h1 {
-    font-family: Montserrat;
+header {
     width: 75%;
     margin: auto;
     text-align: center;
 }
-
-img {
+h1 {
+    font-family: Montserrat;
+    text-align: center;
+}
+.imgsnap img {
     display: block;
-    width: 75%;
     margin: auto;
+    max-width: 100%;
+    height: auto;
+}
+figcaption {
+    text-align: center;
+    margin-top: 5px;
 }
 
 
