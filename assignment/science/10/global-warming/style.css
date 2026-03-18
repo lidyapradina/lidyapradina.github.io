@@ -32,9 +32,9 @@ h2{
     width: 75%;
     margin: auto;
 }
-.header, h1{
+h1{
     font-family: Montserrat;
-    margin-left: 38px;
+    margin-left: auto;
 }
 
 
