@@ -39,7 +39,7 @@ header {
 }
 h1 {
     font-family: Montserrat;
-    text-align: center;
+    text-align: start;
 }
 .imgsnap img {
     display: block;
@@ -48,6 +48,7 @@ h1 {
     height: auto;
 }
 figcaption {
+    text-align: start;
     margin-top: 5px;
 }
 
