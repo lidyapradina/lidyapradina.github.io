@@ -35,11 +35,11 @@ h2{
 header {
     width: 75%;
     margin: auto;
-    text-align: start;
+    text-align: left;
 }
 h1 {
     font-family: Montserrat;
-    text-align: start;
+    text-align: left;
 }
 .imgsnap img {
     display: block;
@@ -48,7 +48,7 @@ h1 {
     height: auto;
 }
 figcaption {
-    text-align: start;
+    text-align: left;
     margin-top: 5px;
 }
 
