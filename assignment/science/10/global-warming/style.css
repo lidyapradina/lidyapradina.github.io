@@ -21,6 +21,11 @@ p, h2 {
   margin: auto;
   padding: 0 20px;
 }
+header,
+.deforestation {
+    max-width: 900px;
+    margin: auto;
+}
 
 h1 {
     font-family: Montserrat;
