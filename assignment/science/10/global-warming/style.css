@@ -17,16 +17,14 @@ body {
 }
 
 p {
-  font-family: Roboto;
-  line-height: 1.7;
-  margin-bottom: 16px;
-  text-align: justify;
+  width: 75%;
+  margin: auto;
+  padding: 20px;  /* 👈 THIS causes the shift */
 }
 
-h2{
-    font-family: Montserrat;
-    width: 75%;
-    margin: auto;
+h2 {
+  width: 75%;
+  margin: auto;
 }
 header,
 .deforestation {
