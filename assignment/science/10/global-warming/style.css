@@ -16,15 +16,18 @@ body {
     padding: 20px;
 }
 
+.deforestation {
+    max-width: 900px;
+    margin: auto;
+    padding: 0 20px;
+}
+
 p {
-  width: 75%;
-  margin: auto;
-  padding: 20px;  /* 👈 THIS causes the shift */
+    line-height: 1.7;
 }
 
 h2 {
-  width: 75%;
-  margin: auto;
+    margin-bottom: 10px;
 }
 header,
 .deforestation {
