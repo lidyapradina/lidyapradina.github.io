@@ -16,18 +16,10 @@ body {
     padding: 20px;
 }
 
-.deforestation {
-    max-width: 900px;
-    margin: auto;
-    padding: 0 20px;
-}
-
-p {
-    line-height: 1.7;
-}
-
-h2 {
-    margin-bottom: 10px;
+p, h2 {
+  width: 75%;
+  margin: auto;
+  padding: 0 20px;
 }
 header,
 .deforestation {
