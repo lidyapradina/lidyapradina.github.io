@@ -16,23 +16,24 @@ body {
     padding: 20px;
 }
 
-p, pre {
+p {
   font-family: Roboto;
-  text-shadow: -1px 0 #9198a4;
-  width: 75%;
-  margin: auto;
-  padding: 20px;
+  line-height: 1.7;
+  margin-bottom: 16px;
+  text-align: justify;
 }
+
 h2{
     font-family: Montserrat;
     width: 75%;
     margin: auto;
 }
-header {
-    width: 75%;
+header,
+.deforestation {
+    max-width: 900px;
     margin: auto;
-    text-align: justify;
 }
+
 h1 {
     font-family: Montserrat;
     text-align: justify;
@@ -48,6 +49,9 @@ figcaption {
     margin-top: 5px;
 }
 
+.deforestation div {
+    margin-bottom: 40px;
+}
 
 /*review*/
 .review-container {
