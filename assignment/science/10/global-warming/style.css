@@ -15,12 +15,8 @@ body {
     margin: auto;
     padding: 20px;
 }
-pre {
-    font-family: Roboto;
-    text-shadow: -1px -1px 0 #374050;width:75%;
-}
 
-p {
+p, pre {
   font-family: Roboto;
   text-shadow: -1px 0 #9198a4;
   width: 75%;
