@@ -18,18 +18,17 @@ body {
 
 p {
     font-family: Roboto;
-    width: 75%;
-    margin: auto;
     padding: 0 20px;
 }
 
-h2{
+h2 {
     font-family: Montserrat;
-    width: 75%;
-    margin: auto;
     padding: 0 20px;
 }
-
+.deforestation {
+    max-width: 900px;
+    margin: auto;
+}
 header,
 .deforestation {
     max-width: 900px;
