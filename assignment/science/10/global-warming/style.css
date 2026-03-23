@@ -16,11 +16,20 @@ body {
     padding: 20px;
 }
 
-p, h2 {
+p {
+    font-family: Roboto;
   width: 75%;
   margin: auto;
   padding: 0 20px;
 }
+
+h2{
+    font-family: Montserrat;
+    width: 75%;
+    margin: auto;
+    padding: 0 20px;
+}
+
 header,
 .deforestation {
     max-width: 900px;
