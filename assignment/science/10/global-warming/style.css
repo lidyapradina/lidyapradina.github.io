@@ -31,7 +31,8 @@ h3 {
     font-family: Roboto;
     padding: 0 20px;
 }
-header {
+header,
+.deforestation {
     max-width: 900px;
     margin: auto;
     padding: 0 20px;
@@ -39,13 +40,12 @@ header {
 
 h1 {
     font-family: Montserrat;
-    margin-bottom: 10px;
-    text-align: left; 
+    text-align: left;
 }
-
 .imgsnap img {
     display: block;
-    width: 100%;  
+    margin: auto;
+    max-width: 100%;
     height: auto;
 }
 figcaption {
