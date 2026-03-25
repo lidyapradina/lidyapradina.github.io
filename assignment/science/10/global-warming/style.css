@@ -31,30 +31,35 @@ h3 {
     font-family: Roboto;
     padding: 0 20px;
 }
-header,
 .deforestation {
     max-width: 900px;
     margin: auto;
 }
 
+/*header, i dont have brains*/
+header {
+    max-width: 950px;   /* same as your image */
+    margin: auto;       /* center the whole block */
+}
+
 h1 {
     font-family: Montserrat;
-    text-align: center;
-    width: 100%;
+    text-align: left;   /* important */
 }
+
 .imgsnap img {
     display: block;
-    margin: auto;
-    max-width: 100%;
+    width: 100%;        /* fill the container */
     height: auto;
 }
+
 figcaption {
     text-align: right;
     margin-top: 5px;
 }
 
 .deforestation div {
-    margin-bottom: 40px;
+    margin-bottom: 20px;
 }
 
 /*review*/
