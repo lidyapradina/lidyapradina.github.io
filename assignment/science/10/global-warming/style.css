@@ -35,12 +35,11 @@ header,
 .deforestation {
     max-width: 900px;
     margin: auto;
-
 }
 
 h1 {
     font-family: Montserrat;
-    margin : 0;
+    text-align: justify;
 }
 .imgsnap img {
     display: block;
@@ -49,7 +48,7 @@ h1 {
     height: auto;
 }
 figcaption {
-    text-align: right;
+    text-align: justify;
     margin-top: 5px;
 }
 
