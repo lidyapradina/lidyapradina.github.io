@@ -36,23 +36,17 @@ h3 {
     margin: auto;
 }
 
-/*header, i dont have brains*/
-header {
-    max-width: 950px;   /* same as your image */
-    margin: auto;       /* center the whole block */
-}
-
 h1 {
     font-family: Montserrat;
-    text-align: left;   /* important */
+    text-align: center;
+    width: 100%;
 }
-
 .imgsnap img {
     display: block;
-    width: 100%;        /* fill the container */
+    margin: auto;
+    max-width: 100%;
     height: auto;
 }
-
 figcaption {
     text-align: right;
     margin-top: 5px;
