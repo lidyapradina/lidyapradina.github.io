@@ -40,7 +40,7 @@ header,
 
 h1 {
     font-family: Montserrat;
-    text-align: left;
+    margin : 0;
 }
 .imgsnap img {
     display: block;
