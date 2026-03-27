@@ -4,17 +4,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 body {
-    margin-right: 30px;
-    margin-left: 30px;
-    padding: 50px;
-    padding-bottom: 10px;
     background-color: #e2e6ed;
-    background-size: 5em 5em;
-    opacity: 1;
-    width: 75%;
-    margin: auto;
+    margin: 0;
     padding: 20px;
 }
+
 .review{
     margin: auto;
     padding: 0 20px;
