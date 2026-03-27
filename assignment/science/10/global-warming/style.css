@@ -58,7 +58,7 @@ figcaption {
 
 /*review*/
 .review-container {
-    position: relative;
+    position: center;
     background-color: white;
     padding: 10px;
     margin: auto;
