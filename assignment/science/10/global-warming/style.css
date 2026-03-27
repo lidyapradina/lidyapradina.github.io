@@ -1,59 +1,75 @@
 /*we have 0 brains*/
+
 /* Import Code */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
+/* Reset & Body */
 body {
     background-color: #e2e6ed;
     margin: 0;
     padding: 20px;
 }
 
-.review{
+/* Main Layout Containers */
+header,
+.deforestation,
+.review {
+    max-width: 900px;
     margin: auto;
     padding: 0 20px;
 }
-p {
-    font-family: Roboto;
-    padding: 0 20px;
+
+/* Headings */
+h1 {
+    font-family: Montserrat;
+    text-align: justify;
+    margin-bottom: 20px;
 }
 
 h2 {
     font-family: Montserrat;
-    padding: 0 20px;
-    max-width: 900px;
-    margin: auto;
-}
-h3 {
-    font-family: Roboto;
-    padding: 0 20px;
-}
-header,
-.deforestation {
-    max-width: 900px;
-    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 10px;
 }
 
-h1 {
-    font-family: Montserrat;
-    text-align: justify;
+h3 {
+    font-family: Roboto;
+    margin-top: 20px;
 }
+
+/* Paragraph */
+p {
+    font-family: Roboto;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+/* Review Section (FIXED ALIGNMENT) */
+.review {
+    margin-top: 40px;
+}
+
+/* Image */
 .imgsnap img {
     display: block;
     margin: auto;
     max-width: 100%;
     height: auto;
 }
+
+/* Caption */
 figcaption {
     text-align: justify;
     margin-top: 5px;
 }
 
+/* Section Spacing */
 .deforestation div {
     margin-bottom: 40px;
 }
 
-/* The source of Deforestation Background */
+/* Source Styling */
 .source {
     font-size: 14px;
     color: gray;
