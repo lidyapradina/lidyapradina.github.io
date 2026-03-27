@@ -3,72 +3,54 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
-/* Body setup */
 body {
+    background-color: #e2e6ed;
     margin: 0;
     padding: 20px;
-    background-color: #e2e6ed;
-    background-size: 5em 5em;
-    opacity: 1;
 }
 
-/* Main container (used everywhere for alignment) */
-.container {
-    max-width: 900px;
+.review{
     margin: auto;
     padding: 0 20px;
 }
-
-/* Text styles */
 p {
     font-family: Roboto;
+    padding: 0 20px;
+}
+
+h2 {
+    font-family: Montserrat;
+    padding: 0 20px;
+    max-width: 900px;
+    margin: auto;
+}
+h3 {
+    font-family: Roboto;
+    padding: 0 20px;
+}
+header,
+.deforestation {
+    max-width: 900px;
+    margin: auto;
 }
 
 h1 {
     font-family: Montserrat;
     text-align: justify;
-    margin: 0; /* fix alignment issue */
 }
-
-h2 {
-    font-family: Montserrat;
-    margin: 0;
-}
-
-h3 {
-    font-family: Roboto;
-}
-
-/* Sections */
-header,
-.deforestation,
-.review {
-    max-width: 900px;
-    margin: auto;
-    padding: 0 20px;
-}
-
-/* Image */
 .imgsnap img {
     display: block;
-    width: 100%;
+    margin: auto;
+    max-width: 100%;
     height: auto;
 }
-
-/* Caption */
 figcaption {
     text-align: justify;
     margin-top: 5px;
 }
 
-/* Spacing */
 .deforestation div {
     margin-bottom: 40px;
-}
-
-/*review*/
-.header, h1{
-    font-family: Montserrat;
 }
 
 /* The source of Deforestation Background */
