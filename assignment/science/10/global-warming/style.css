@@ -21,7 +21,7 @@ p {
     padding: 0 20px;
 }
 
-h2 {
+h2 {    
     font-family: Montserrat;
     padding: 0 20px;
     max-width: 900px;
@@ -31,7 +31,6 @@ h3 {
     font-family: Roboto;
     padding: 0 20px;
 }
-header,
 .deforestation {
     max-width: 900px;
     margin: auto;
@@ -39,7 +38,8 @@ header,
 
 h1 {
     font-family: Montserrat;
-    text-align: justify;
+    text-align: center;
+    width: 100%;
 }
 .imgsnap img {
     display: block;
@@ -48,12 +48,12 @@ h1 {
     height: auto;
 }
 figcaption {
-    text-align: justify;
+    text-align: right;
     margin-top: 5px;
 }
 
 .deforestation div {
-    margin-bottom: 40px;
+    margin-bottom: 20px;
 }
 
 /*review*/
